@@ -1,0 +1,41 @@
+{
+  "name": "solhint-config-yearn",
+  "version": "1.0.0",
+  "description": "Shareable configs are configurations that you can use and extend from.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "solhint.js"
+  ],
+  "scripts": {
+    "test": "npx prettier --write ."
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yearnBot/solhint-config-yearn.git"
+  },
+  "keywords": [
+    "solhint",
+    "solhint config",
+    "ethereum",
+    "solidity"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/yearnBot/solhint-config-yearn/issues"
+  },
+  "homepage": "https://github.com/yearnBot/solhint-config-yearn#readme",
+  "dependencies": {
+    "solhint": "^3.3.2",
+    "solhint-plugin-prettier": "0.0.5"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "prettier": "^2.1.2",
+    "prettier-plugin-solidity": "^1.0.0-alpha.59"
+  }
+}
